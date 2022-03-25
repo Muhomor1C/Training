@@ -6,7 +6,7 @@ def qwestion(numeric_system, digit):
     :return: digit in numeric system
     """
     answer = []
-    digits = [chr(i) for i in range(48, 91) if i not in range(58, 65)]
+    digits = [chr(i) for i in range(48, 91) if i not in range(58, 65)] #Список из цифр и букв
 
 
     def raschet(numeric_system, digit):
